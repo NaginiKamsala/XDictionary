@@ -37,8 +37,11 @@ const Dictionary = () => {
             placeholder="Search for a word"
           />
           <button onClick={handleSearch}>Search</button>
-          <div>Definition :</div>
-          {result && <div>{result}</div>}
+
+          <div>
+            <p>Definition:</p>
+            {result && <p>{result}</p>}
+          </div>
         </div>
       </header>
     </div>
